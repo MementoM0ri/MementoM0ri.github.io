@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Fancify Shamcify</title>
+	<script src="fancifymytext.js" type="text/javascript"></script>
+	
+		<!-- link to your script file here -->
+		
+	</head>
+
+	<body>
+		<h1>Fancify my Text</h1> 
+		<textarea id="ftext" name="ftext"
+          rows="4" cols="30" class="border">
+		</textarea>
+		<div class="border border2">
+		<button type="button" onclick="bigger();">Bigger</button>
+		<button type="button" onclick="fancy();">FancySchmancy</button>
+		<button type="button" onclick="normal();">BoringBetty</button>
+		<label><input type="checkbox" id="bold" onclick="bolding();"/> Bold</label> <br /><br />
+		</div>
+	</body>
+</html>
+
+<style>
+  .border {
+    width: 200px;
+    height: 100px;
+    padding: 10px;
+    border: 10px solid blue;
+  }
+  
+.border2 {
+	border: 10px solid green;
+	width: 200px;
+    height: 50px;
+    padding: 10px;
+	}
+</style>
